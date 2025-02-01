@@ -56,11 +56,12 @@ a {
     color: #fff;
 }
 
-h2 {
+.subtitle {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 2%;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 }
@@ -88,25 +89,35 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.text-features {
+.text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section3 {
-    background-color: #e7e9fc;
+.our-team {
+    background-color: #F4F4FD;
 }
-footer {
+.team-members > li {
+    background-color: #FFFFFF;
+}
+.footer {
     background-color: #2e2f42;
-    color: #f4f4fd;
 }
-footer .logo {
+.footer .logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer .logo .studio {
     color: #f4f4fd;
 }
-footer .logo .web {
-    color: #4d5ae5;
+.footer .text-footer {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
